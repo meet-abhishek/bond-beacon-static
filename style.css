@@ -1,0 +1,68 @@
+body {
+  background: linear-gradient(to bottom, black, silver, black);
+  margin: 0;
+  font-family: Arial, sans-serif;
+  height: 100vh;
+}
+header {
+  height: 90vh;
+  margin: 20px; /* Remove margin as it is handled by the container */
+  background: linear-gradient(to bottom, #434343, #000000, #434343);
+  padding: 20px;
+  border-radius: 15px; /* Add rounded corners */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Optional: Add a shadow */
+  position: relative; /* Ensure .header-text aligns correctly within header */
+}
+.header-text {
+  display: flex;
+  justify-content: center;
+  left: 50%;
+  background-color: #434343;
+  color: white;
+  font-size: 2.3em;
+  font-weight: bold;
+  padding: 15px;
+  border-radius: 15px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+.intro-head {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 100px;
+  color: white;
+}
+.intro-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 50px;
+  color: white;
+}
+.type-bonds {
+  display: flex;
+  align-items: center;
+  height: 90vh;
+  margin: 20px 0; /* Adjust margins to be consistent */
+  background: linear-gradient(to bottom, #434343, #000000, #434343);
+  color: white;
+  padding: 20px;
+  margin: 20px;
+  border-radius: 15px; /* Add rounded corners */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Optional: Add a shadow */
+}
+.type-bonds h3 {
+  text-align: center;
+  background-color: white;
+  margin: 20px;
+  padding: 5px;
+  width: 50%;
+  color: black;
+  
+}
+footer {
+  color: white; /* White text */
+  text-align: center; /* Center align text */
+  padding: 10px; /* Add padding for a cleaner look */
+  background-color:linear-gradient(to bottom, #434343, #000000, #434343); /* Optional: Add a background color for footer */
+}
